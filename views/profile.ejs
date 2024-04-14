@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+    <%- include('header.ejs')-%>
+    <title>Profile Details</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body         { padding-top:80px; }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h1><span class="fa fa-sign-in"></span> Profile Details</h1>
+
+      
+
+    
+    <!-- update FORM -->
+    <form action="/users/profile" method="post">
+        <div class="form-group">
+            <label>Name: <%= data.Name %></label>
+            <br><br>
+            <label>Email: <%= data.Email %></label>
+            <br><br>
+            <label>Password: <%= data.Password %></label>
+            <br><br>
+            <label>Phone: <%= data.Phone %></label>
+            <br><br>
+            <label>Country: <%= data.Country %></label>
+
+            
+  
+        <br><br>
+        <a href="http://localhost:2024/users/password" class="btn btn-warning btn-lg" ><button type="button">Password updation</button></a>
+         
+        <a href="http://localhost:2024/users/update" class="btn btn-warning btn-lg" ><button type="button">Edit Details</button></a>
+
+        <a href="http://localhost:2024/users/email" class="btn btn-warning btn-lg" ><button type="button">send email for update password</button></a>
+
+
+        
+    </form>
+
+</div>
+</div>
+</body>
+</html>

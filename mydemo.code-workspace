@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/app"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/assets"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/core"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/log"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/node_modules"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/passport"
+		},
+		{
+			"path": "../workspace/node-express-mongoose-sqlize/server"
+		}
+	]
+}
